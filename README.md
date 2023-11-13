@@ -15,3 +15,4 @@ Run `npm i` and `ng serve` for a dev server. Navigate to `http://localhost:4200/
 Todos:
 
 - Add unit tests/e2e test
+- Find out how to resize svg with css/js, if possible
