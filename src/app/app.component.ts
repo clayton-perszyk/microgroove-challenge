@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {  InitialsViewerContainerComponent } from '../../src/app/components/InitialsViewerContainerComponent/initials-viewer-container.component'
+interface a {
 
+}
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, InitialsViewerContainerComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'microgroove-challenge';
+  title: string = 'microgroove-challenge';
 }

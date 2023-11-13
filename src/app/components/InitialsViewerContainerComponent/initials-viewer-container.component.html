@@ -1,0 +1,10 @@
+
+<div *ngIf="loading$ | async" class="spinner">
+    <mat-spinner></mat-spinner>
+</div>
+<app-search (submit)='submitName($event)'></app-search>
+<div class="carousel">
+    <app-carousel [svgs]="svgs"></app-carousel>
+</div>
+
+

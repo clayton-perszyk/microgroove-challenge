@@ -1,0 +1,15 @@
+.svg  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+::ng-deep{
+     .p-carousel-indicators{
+        display: none !important;
+   }
+}
+
+.p-carousel-indicator .p-highlight {
+    display: none;
+}

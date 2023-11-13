@@ -1,0 +1,5 @@
+<p-carousel [value]="svgs" [numVisible]="1" [numScroll]="1" orientation="horizontal" verticalViewPortHeight="360px" >
+  <ng-template let-svg pTemplate="item">
+    <div class="svg" [innerHTML]="svg | bypassSecurity"></div>
+  </ng-template>
+</p-carousel>
