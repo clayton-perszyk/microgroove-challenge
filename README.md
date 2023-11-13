@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `npm i` and `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm i --legacy-peer-deps` and `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ![Screenshot 2023-11-12 at 4 15 56 PM](https://github.com/clayton-perszyk/microgroove-challenge/assets/7948430/af46ae12-183c-4266-9b3a-9f66a47c1786)
 
@@ -16,3 +16,5 @@ Todos:
 
 - Add unit tests/e2e test
 - Find out how to resize svg with css/js, if possible
+- Fix peer legacy issue caused by primeng
+  
