@@ -13,6 +13,6 @@ export class HttpService {
 
   getInitialsByName(name: string) {
     const urlWithName: string = this.url.replace(this.namePlaceholder, name)
-    return this.http.get(urlWithName, {responseType: 'text'});
+    return this.http.get(urlWithName, { responseType: 'text' });
   }
 }

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Input } from '@angular/core';
 import { BypassSecurityPipe } from '../../pipes/bypassSecurityPipe/bypass-security.pipe';
 import { CarouselModule } from 'primeng/carousel';
+import { SafeHtml } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-carousel',
@@ -13,5 +14,5 @@ import { CarouselModule } from 'primeng/carousel';
 })
 export class CarouselComponent {
   public autoPlay: Boolean = false;
-  @Input() svgs: any;
+  @Input() svgs: Array<SafeHtml> = [];
 }
