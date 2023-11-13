@@ -1,20 +1,31 @@
 .flex-container {
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
 button {
     margin-left: 10px;
     width: 210px;
+    height: 56px;
 }
 
-.full-width {
+.name-field {
     width: 70%;
+}
+
+.error {
+    align-self: flex-start;
+    margin-left: 10px;
 }
 
 @media (max-width: 801px) {
     .flex-container {
         flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .name-field {
+        width: 210px;
+        margin-left: 10px;
     }
 }

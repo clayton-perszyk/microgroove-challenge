@@ -1,10 +1,10 @@
 <form [formGroup]="userForm" (ngSubmit)="submitForm()" novalidate>
   <div class="flex-container">
-    <mat-form-field class="full-width">
+    <mat-form-field class="name-field">
       <mat-label>Name</mat-label>
       <input matInput  name="name" placeholder="Name" formControlName="name">
     </mat-form-field>
-    <div *ngIf="userForm.get('name')?.invalid && (userForm.get('name')?.dirty || userForm.get('name')?.touched)">
+    <div class="error" *ngIf="userForm.get('name')?.invalid && (userForm.get('name')?.dirty || userForm.get('name')?.touched)">
       <mat-error *ngIf="userForm?.get('name')?.errors?.['required']">
         Name is required.
       </mat-error>
