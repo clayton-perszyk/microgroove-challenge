@@ -17,4 +17,8 @@ Todos:
 - Add unit tests/e2e test
 - Find out how to resize svg with css/js, if possible
 - Fix peer legacy issue caused by primeng
+- add a11y
+- store svgs in local/session storage
+- is there a way display svg without sanitizer
+  
   
