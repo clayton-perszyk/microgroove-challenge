@@ -20,5 +20,4 @@ Todos:
 - add a11y
 - store svgs in local/session storage
 - is there a way display svg without sanitizer
-  
-  
+- add more validations
